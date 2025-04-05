@@ -1,0 +1,133 @@
+header{
+    color: aliceblue;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 5;
+}
+h1{
+    background-color: #717172;
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+
+}
+main{
+    margin-top: 100px;
+}
+code{
+    color: #ffab52;
+}
+.kolom{
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    margin: 25px;
+}
+body{
+    background-color: #d7dddf;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin-top: 0px;
+}
+.static{
+    background-color: #011d4d;
+    color: aliceblue;
+    position: static;
+}
+.relative{
+    background-color: #034078;
+    color: aliceblue;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.absolute{
+    background-color: #1282a2;
+    color: aliceblue;
+}
+.fixed{
+    background-color: #e4dfda;
+}
+.sticky{
+    background-color: #373737;
+    color: whitesmoke;
+}
+footer{
+    background-color: #717172;
+    color: aliceblue;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+}
+.footer-salman{
+    text-align: center;
+}
+
+.contoh{
+    background-color: #efefef;
+    color: black;
+    overflow-y: auto;
+    height: 120px;
+    width: 85%;
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+}
+.position-static{
+    background-color: #ff911c;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 3px;
+    color: aliceblue;
+    width: 400px;
+}
+.position-relative{
+    background-color: #ff911c;
+    color: aliceblue;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 3px;
+    position: relative;
+    top: 30px;
+    left: 40px;
+    width: 400px;
+}
+.pos-absolute{
+    position: relative;
+}
+.position-absolute{
+    background-color: #ff911c;
+    color: aliceblue;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 3px;
+    position: absolute;
+    top: 110px;
+    left: 70px;
+    width: 400px;
+}
+.position-sticky{
+    background-color: #ff911c;
+    position: sticky;
+    top: 0px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 3px;
+    color: aliceblue;
+}
+.position-sticky2{
+    background-color: #ff911c;
+    position: sticky;
+    top: 30px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 3px;
+    color: aliceblue;
+}

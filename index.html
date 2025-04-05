@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Position CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header><h1>Jenis Position Pada CSS</h1>
+    </header>
+    <main>
+        <section class="kolom static">
+            <div><h2>Position static</h2>
+            <p> Ini adalah nilai default. Elemen dengan posisi static tidak diposisikan secara khusus; mereka mengikuti alur dokumen normal. Properti <code >top, right, bottom, </code>dan <code> left</code> tidak berpengaruh. Untuk contoh penggunaan bisa melihat dalam box dibawah ini</p>
+        </div>
+        <div class="contoh pos-static">
+            <h4 class="position-static">CONTOH STATIC</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem voluptate optio repellendus maxime? Unde ipsam ut, molestias rem eum vitae quasi at? Enim ab soluta tempore! Exercitationem perspiciatis excepturi fugit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum fugiat, minima facere voluptas culpa saepe consequuntur exercitationem nihil quibusdam ullam nostrum sapiente odit excepturi unde assumenda similique, ea reprehenderit dolorem.</p>
+        </div>
+        </section>
+        <section class="kolom relative">
+            <div><h2>Position Relative</h2>
+            <p> Elemen dengan posisi relative diposisikan relatif terhadap posisinya yang normal. Anda dapat menggunakan properti  <code >top, right, bottom, </code>dan <code> left</code> untuk menggeser elemen dari posisi aslinya. Untuk contoh penggunaan bisa melihat dalam box dibawah ini</p>
+        </div>
+        <div class="contoh pos-relative">
+            <h4 class>CONTOH RELATIVE</h4>
+            <p>Scroll kebawah..  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem voluptate optio repellendus maxime? Unde ipsam ut, molestias rem eum vitae quasi at? Enim ab soluta tempore! Exercitationem perspiciatis excepturi fugit.</p>
+            <p class="position-relative">ini adalah contoh penggunaan position relative</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium quia commodi nihil blanditiis eaque in enim pariatur quisquam veritatis voluptas ducimus ea nemo, repudiandae rem culpa mollitia asperiores fugit iusto.</p>
+        </div>
+        </section>
+        <section class="kolom absolute">
+            <div><h2>Position Absolute</h2>
+        <p>Elemen dengan posisi absolute diposisikan relatif terhadap elemen terdekat yang memiliki posisi selain static (seperti relative, absolute, atau fixed). Jika tidak ada elemen seperti itu, maka elemen akan diposisikan relatif terhadap viewport. Untuk contoh penggunaan bisa melihat dalam box dibawah ini</p>
+        </div>
+        <div class="contoh pos-absolute">
+            <h4 class>CONTOH ABSOLUTE</h4>
+            <p>Scroll kebawah..  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem voluptate optio repellendus maxime? Unde ipsam ut, molestias rem eum vitae quasi at? Enim ab soluta tempore! Exercitationem perspiciatis excepturi fugit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero totam impedit nam odit aliquam porro, expedita quo eum ea ad ex, aperiam reiciendis pariatur quasi accusamus nihil nulla ullam natus.</p>
+            <div class="position-absolute">ini adalah contoh penggunaan position Absolute</div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium quia commodi nihil blanditiis eaque in enim pariatur quisquam veritatis voluptas ducimus ea nemo, repudiandae rem culpa mollitia asperiores fugit iusto.</p>
+        </div>
+
+        </section>
+        <section class=" kolom fixed">
+            <h2>Position Fixed</h2>
+            <p>Elemen dengan posisi fixed diposisikan relatif terhadap viewport, sehingga tetap berada di tempat yang sama saat halaman digulir. Ini berguna untuk elemen seperti header atau footer yang ingin tetap terlihat. Untuk contoh penggunaan bisa melihat dalam box Header diatas.</p>
+        </section>
+        <section class="kolom sticky">
+            <div><h2>Position Sticky</h2>
+            <p>Elemen dengan posisi sticky berfungsi seperti relative pada posisi normal, tetapi akan beralih ke posisi fixed ketika mencapai batas tertentu saat menggulir. Ini sering digunakan untuk membuat elemen tetap terlihat saat pengguna menggulir halaman. Untuk contoh penggunaan bisa melihat dalam box dibawah ini</p>
+        </div>
+        <div class="contoh static">
+            <h4 class="position-sticky">CONTOH STICKY 1</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem voluptate optio repellendus maxime? Unde ipsam ut, molestias rem eum vitae quasi at? Enim ab soluta tempore! Exercitationem perspiciatis excepturi fugit.</p>
+            <h4 class="position-sticky2">CONTOH STICKY 2</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum fugiat, minima facere voluptas culpa saepe consequuntur exercitationem nihil quibusdam ullam nostrum sapiente odit excepturi unde assumenda similique, ea reprehenderit dolorem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium quia commodi nihil blanditiis eaque in enim pariatur quisquam veritatis voluptas ducimus ea nemo, repudiandae rem culpa mollitia asperiores fugit iusto.</p>
+        </div>
+        </section>
+
+    </main>
+    <footer>
+        <div>
+            <p class="footer-salman"> <b> &copy; Muchammad Salman Alfarisi 0077</b></p>
+        </div>
+    </footer>
+</body>
+</html>
